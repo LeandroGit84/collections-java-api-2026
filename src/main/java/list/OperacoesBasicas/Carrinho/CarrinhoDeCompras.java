@@ -39,6 +39,7 @@ public class CarrinhoDeCompras {
     public void exibirItens() {
         if (!itemList.isEmpty()) {
             System.out.println(this.itemList);
+
         }else {
             System.out.println("A lista está vazia!");
         }
@@ -51,13 +52,13 @@ public class CarrinhoDeCompras {
         carrinho.exibirItens();
         System.out.println("=======================");
         carrinho.adicionarItem("mesa", 2d, 10);
-        carrinho.adicionarItem("cadeira", 2d, 10);
-        carrinho.adicionarItem("tampo", 2d, 10);
-        carrinho.adicionarItem("tampo", 2d, 10);
-        carrinho.adicionarItem("tampo", 2d, 10);
-        carrinho.adicionarItem("tampo", 2d, 10);
+//        carrinho.adicionarItem("cadeira", 2d, 10);
+//        carrinho.adicionarItem("tampo", 2d, 10);
+//        carrinho.adicionarItem("tampo", 2d, 10);
+//        carrinho.adicionarItem("tampo", 2d, 10);
+//        carrinho.adicionarItem("tampo", 2d, 10);
         carrinho.exibirItens();
-        System.out.println("=======================");
+//        System.out.println("=======================");
 
         //carrinho.removerItem("cadeira");
         //carrinho.exibirItens();
