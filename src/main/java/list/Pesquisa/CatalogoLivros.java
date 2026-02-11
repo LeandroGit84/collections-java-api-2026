@@ -1,9 +1,7 @@
 package main.java.list.Pesquisa;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
-import java.util.Objects;
 
 public class CatalogoLivros {
     //atributo
