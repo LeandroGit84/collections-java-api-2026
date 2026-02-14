@@ -31,20 +31,19 @@ public class SomaNumeros {
 
         }
     }
+
     public int encontrarMaiorNumero() {
-        int maiorNumero;
-        if (!lisNumeros.isEmpty()) {
-            maiorNumero = lisNumeros.get(0).getNumero();
-            for (Numeros numMaior : lisNumeros) {
-                if (numMaior.getNumero() > maiorNumero) {
-                    maiorNumero = numMaior.getNumero() ;
-                }
-            }
-            return maiorNumero;
-        } else {
-            System.out.println("Lista vazia para maior numero!");
+
+        if (lisNumeros.isEmpty()) {
+            throw new IllegalStateException("Lista vazia!");
         }
-        return  0;
+        int maiorNumero = lisNumeros.get(0).getNumero();
+        for (Numeros numMaior : lisNumeros) {
+            if (numMaior.getNumero() > maiorNumero) {
+                maiorNumero = numMaior.getNumero() ;
+            }
+        }
+        return maiorNumero;
     }
 
     public int encontrarMenorNumero() {

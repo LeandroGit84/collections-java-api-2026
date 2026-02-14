@@ -1,4 +1,4 @@
-package main.java.list.Ordenacao;
+package main.java.list.Ordenacao.OrdenacaoPessoas;
 
 public class Pessoa implements Comparable<Pessoa> {
     private String nome;

@@ -1,7 +1,5 @@
-package main.java.list.Ordenacao;
+package main.java.list.Ordenacao.OrdenacaoPessoas;
 
-import java.security.PublicKey;
-import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
