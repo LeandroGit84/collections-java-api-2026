@@ -1,4 +1,4 @@
-package main.java.list.Ordenacao.OrdenacaoNumeros;
+package main.java.set.Ordenacao.OrdenacaoNumeros;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -39,6 +39,7 @@ public class OrdenacaoNumeros {
         if (listNumeros.isEmpty()) {
             throw new IllegalStateException("Lista vazia");
         }
+
         System.out.println("Lista: " + listNumeros);
     }
 
