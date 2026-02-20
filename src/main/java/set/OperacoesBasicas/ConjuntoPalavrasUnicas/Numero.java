@@ -1,4 +1,4 @@
-package main.java.set.Ordenacao.OrdenacaoNumeros;
+package main.java.set.OperacoesBasicas.ConjuntoPalavrasUnicas;
 
 public class Numero implements Comparable<Numero>{
     private int numero;
