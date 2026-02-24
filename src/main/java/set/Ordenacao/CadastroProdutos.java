@@ -16,7 +16,6 @@ public class CadastroProdutos {
     }
 
     public Set<Produto> exibirProdutosPorNome() {
-
         Set<Produto> produtoPorNome = new TreeSet<>(produtoSet);
         return produtoPorNome;
     }

@@ -25,11 +25,11 @@ public class ConjuntoPalavrasUnicas {
                p -> p.getPalavras().equalsIgnoreCase(palavra)
        );
            if (removerPalavras) {
-               System.out.println("Palavra removida? " + removerPalavras);
+               System.out.println("Palavras removida? " + removerPalavras);
            } else {
-               System.out.println("Palavra não encontrada!" );
+               System.out.println("Palavras não encontrada!" );
            }
-         //  System.out.println("Palavra removida? " + removerPalavras);
+         //  System.out.println("Palavras removida? " + removerPalavras);
 
     }
 
